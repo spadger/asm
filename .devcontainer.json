@@ -4,7 +4,7 @@
 	"name": "Docker in Docker",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "ubuntu",
-	"runArgs": ["--platform=linux/amd64" ],
+	"runArgs": ["--platform=linux/x86_64" ],
 	"features": {
 		"ghcr.io/devcontainers/features/docker-in-docker:2": {
 			"version": "latest",
